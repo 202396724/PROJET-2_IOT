@@ -27,3 +27,5 @@ class TTS:
 if __name__ == "__main__":
     tts = TTS()
     tts.speak("Bonjour, ceci est un test.")
+
+#### DO NOT MODIFY THIS FILE ####
