@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" modified="2024-09-25T12:41:23.249Z" version="24.2.5" etag="J35d3eO8gCpg1nTWYSG5" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" modified="2024-09-25T16:20:10.659Z" version="24.2.5" etag="Ba1wyNcqbWInQRNcRRF-" type="device">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3056" dy="1360" grid="1" gridSize="5.9055" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="3443" dy="1555" grid="1" gridSize="5.9055" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -52,22 +52,22 @@
         <mxCell id="U3eGdaipP0VV8Fm8FsTq-20" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="602.36" y="94.49" width="620.08" height="543.3" as="geometry" />
         </mxCell>
+        <mxCell id="DlGmfW5MKYUiyRpJDy4_-25" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="U3eGdaipP0VV8Fm8FsTq-20" vertex="1">
+          <mxGeometry x="41.34" y="100.39" width="537.4" height="419.29" as="geometry" />
+        </mxCell>
         <mxCell id="hmgnK0DbzaivIdMZ3h7j-15" value="RASPBERRY" style="swimlane;whiteSpace=wrap;html=1;container=0;" parent="U3eGdaipP0VV8Fm8FsTq-20" vertex="1">
           <mxGeometry width="620.08" height="543.3" as="geometry" />
         </mxCell>
-        <mxCell id="DlGmfW5MKYUiyRpJDy4_-10" value="[SEAN]&lt;br&gt;MQTT&lt;div&gt;PUBLISHER&lt;br&gt;SCRIPT&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;container=0;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="hmgnK0DbzaivIdMZ3h7j-15" vertex="1">
+        <mxCell id="DlGmfW5MKYUiyRpJDy4_-10" value="[SEAN]&lt;br&gt;MQTT&lt;div&gt;PUBLISHER&lt;br&gt;SCRIPT&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;container=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="hmgnK0DbzaivIdMZ3h7j-15" vertex="1">
           <mxGeometry x="147.64" y="354.33" width="177.16" height="114.74" as="geometry" />
         </mxCell>
         <mxCell id="DlGmfW5MKYUiyRpJDy4_-32" value="GPIO [KARL]" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;container=0;" parent="hmgnK0DbzaivIdMZ3h7j-15" vertex="1">
           <mxGeometry x="395.66549999999995" y="361.0754999999999" width="153.54" height="107.99" as="geometry" />
         </mxCell>
-        <mxCell id="DlGmfW5MKYUiyRpJDy4_-25" value="" style="rounded=0;whiteSpace=wrap;html=1;container=0;" parent="U3eGdaipP0VV8Fm8FsTq-20" vertex="1">
-          <mxGeometry x="41.34000000000003" y="100.39" width="537.4" height="224.42" as="geometry" />
-        </mxCell>
-        <mxCell id="hmgnK0DbzaivIdMZ3h7j-26" value="KARL [SEAN]&lt;br&gt;tkinter (lights)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;container=0;" parent="U3eGdaipP0VV8Fm8FsTq-20" vertex="1">
+        <mxCell id="hmgnK0DbzaivIdMZ3h7j-26" value="KARL [SEAN]&lt;br&gt;tkinter (lights)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" parent="U3eGdaipP0VV8Fm8FsTq-20" vertex="1">
           <mxGeometry x="377.94999999999993" y="183.07" width="153.54" height="107.99" as="geometry" />
         </mxCell>
-        <mxCell id="hmgnK0DbzaivIdMZ3h7j-11" value="KARL [SEAN]&lt;br&gt;MQTT SUBSCRIBER&lt;br&gt;SCRIPT" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;container=0;" parent="U3eGdaipP0VV8Fm8FsTq-20" vertex="1">
+        <mxCell id="hmgnK0DbzaivIdMZ3h7j-11" value="KARL [SEAN]&lt;br&gt;MQTT SUBSCRIBER&lt;br&gt;SCRIPT" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;container=0;" parent="U3eGdaipP0VV8Fm8FsTq-20" vertex="1">
           <mxGeometry x="112.20723046749413" y="173.79061732688234" width="142.03428139669472" height="77.617806168733" as="geometry" />
         </mxCell>
         <mxCell id="DlGmfW5MKYUiyRpJDy4_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=142.03428139669472;exitDy=50.80890308436649;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=41.995;entryPerimeter=0;" parent="U3eGdaipP0VV8Fm8FsTq-20" source="hmgnK0DbzaivIdMZ3h7j-11" target="hmgnK0DbzaivIdMZ3h7j-26" edge="1">
@@ -88,7 +88,7 @@
         <mxCell id="hmgnK0DbzaivIdMZ3h7j-12" value="PC" style="swimlane;whiteSpace=wrap;html=1;startSize=23;container=0;" parent="U3eGdaipP0VV8Fm8FsTq-21" vertex="1">
           <mxGeometry width="425.2" height="679.12" as="geometry" />
         </mxCell>
-        <mxCell id="hmgnK0DbzaivIdMZ3h7j-9" value="KARL [SEAN]&lt;br&gt;MQTT&lt;div&gt;PUBLISHER&lt;br&gt;SCRIPT&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;container=0;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="U3eGdaipP0VV8Fm8FsTq-21" vertex="1">
+        <mxCell id="hmgnK0DbzaivIdMZ3h7j-9" value="KARL [SEAN]&lt;br&gt;MQTT&lt;div&gt;PUBLISHER&lt;br&gt;SCRIPT&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;container=0;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="U3eGdaipP0VV8Fm8FsTq-21" vertex="1">
           <mxGeometry x="259.4655000000001" y="247.18423052615668" width="118.11" height="114.7394898699728" as="geometry" />
         </mxCell>
         <mxCell id="DlGmfW5MKYUiyRpJDy4_-8" value="[SEAN]&lt;br&gt;MQTT SUBSCRIBER&lt;br&gt;SCRIPT" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;size=24;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;container=0;" parent="U3eGdaipP0VV8Fm8FsTq-21" vertex="1">
